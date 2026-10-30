@@ -174,7 +174,7 @@ proofcrew/
   config.py     environment configuration (keys, model IDs, base URL)
   transport.py  Token Factory transport (OpenAI-compatible)
   crew.py       the five-stage orchestration + adjudication gate
-  tavily.py     Tavily search client (stdlib HTTP)
+  tavily.py     Tavily search client (httpx)
   receipts.py   hash-chain receipts + verification (stdlib only)
 run.py          CLI entry point
 app.py          web UI entry point (stdlib http.server)
